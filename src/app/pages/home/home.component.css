@@ -1,0 +1,18 @@
+.container {
+  height: 10vh;
+  width: 100vw;
+  margin: 15px;
+  /* background-color: red; */
+}
+
+@media screen and (min-device-width: 1024px) {
+  .navbar__account {
+    margin-left: 62%;
+  }
+}
+
+@media screen and (min-device-width: 2560px) {
+  .navbar__account {
+    margin-left: 70%;
+  }
+}
